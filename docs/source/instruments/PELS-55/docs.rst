@@ -15,8 +15,6 @@ spectroscopy, the light source and the detector are oriented at a 90
 degree angle. Unlike UV-Vis spectroscopy, fluorescence spectroscopy is
 a measure of the ability of an analyte to emit light.
 
-.. contents:: :local:
-
 Procedure
 ~~~~~~~~~
 

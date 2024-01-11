@@ -6,8 +6,6 @@ machine along the wall".
 
 This method was adapted from the *Leeman Lab Profile*
 
-.. contents:: :local:
-
 Starting the ICP-OES
 --------------------
 
@@ -134,7 +132,7 @@ Making Standards and Filling the Autosampler
 
 #. Follow the standard prep using the table below
 
-   .. image:: /instruments/icp-oes/images/table_stds.png
+   .. image:: images/table_stds.png
 
 #. After filling all standards with appropriate solvent to the line,
    invert and mix 15 times. Fill all the standard tubes (The large ones

@@ -20,9 +20,6 @@ GC-MS include drug detection, fire investigation, environmental
 analysis, explosives investigation, and identification of unknown
 samples.
 
-.. contents::
-   :local:
-
 Procedure and Set-Up
 --------------------
 

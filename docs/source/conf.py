@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Instrument Documentation'
+project = 'Bloomsburg Instrumentation'
 copyright = '2024, D.A. McCurry, CHEM442 Class'
 author = 'D.A. McCurry, CHEM442 Class'
 release = '2024'

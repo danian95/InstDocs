@@ -8,8 +8,6 @@ interfaced to one another. See Dr. McCurry for details.
 -  `Gamry Application
    Notes <https://www.gamry.com/application-notes/>`__
 
-.. contents:: :local:
-
 Procedures
 ----------
 

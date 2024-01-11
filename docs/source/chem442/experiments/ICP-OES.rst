@@ -8,11 +8,11 @@ There is a manual in the lab for how to assemble the
 carrousel (but it is also attached here in case you wanted to read
 beforehand etc.)
 
-.. image:: /instruments/icp-oes/images/vessel_pg_1.png
-.. image:: /instruments/icp-oes/images/vessel_pg_2.png
-.. image:: /instruments/icp-oes/images/vessel_pg_3.png
-.. image:: /instruments/icp-oes/images/vessel_pg_4.png
-.. image:: /instruments/icp-oes/images/vessel_pg_5.png
+.. image:: /instruments/ICP-OES/images/vessel_pg_1.png
+.. image:: /instruments/ICP-OES/images/vessel_pg_2.png
+.. image:: /instruments/ICP-OES/images/vessel_pg_3.png
+.. image:: /instruments/ICP-OES/images/vessel_pg_4.png
+.. image:: /instruments/ICP-OES/images/vessel_pg_5.png
 
 #. You will need to weigh 3 multivitamins on the scale and crush in a
    mortar/pestle

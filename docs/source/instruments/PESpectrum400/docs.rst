@@ -15,8 +15,6 @@ The term Fourier-transform infrared spectroscopy originates from the
 fact that a Fourier transform (a mathematical process) is required to
 convert the raw data into the actual spectrum.
 
-.. contents:: :local:
-
 Procedure
 ---------
 

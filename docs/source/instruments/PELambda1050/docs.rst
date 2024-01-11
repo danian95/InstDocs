@@ -13,8 +13,6 @@ measure how much a chemical substance absorbs light. This is done by
 measuring the intensity of light that passes through a sample with
 respect to the intensity of light through a reference sample or blank.
 
-.. contents:: :local:
-
 Procedure
 ---------
 
