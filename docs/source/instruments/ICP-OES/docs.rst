@@ -58,7 +58,7 @@ Starting the ICP-OES
    through the tubes through the pump. It is a good idea to recheck argon tank
    output pressures at this point. 
 
-   .. attention::
+   .. tip::
       Have someone designated to check the plasma every few minutes to make sure
       that it is not put out by the liquid because then you will have to
       reignight it.

@@ -14,10 +14,12 @@ release = '2024'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['myst_parser','matplotlib.sphinxext.plot_directive']
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+numfig = True
 
 
 

@@ -49,7 +49,7 @@ Method Set-up
    d. The fourth tab labeled ‘Furnace’ is where you can edit the furnace
       program to ideal parameters. 
 
-      .. attention::
+      .. important::
 
          To make sure the instrument is reading exactly what you want it to,
          have the ‘Read Steps (R)’ be at the optimum temperatures for

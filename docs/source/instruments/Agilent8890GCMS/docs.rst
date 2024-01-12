@@ -180,7 +180,7 @@ Procedure and Set-Up
 Shutdown
 --------
 
-.. warning::
+.. important::
    
    When finished using the instrument, be sure to set the method to
    **standby.M**.

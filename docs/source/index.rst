@@ -28,7 +28,7 @@ general procedures for operating the instrument.
    :hidden:
 
    fom/FOM
-   chem442/chem442
+   chem442/manual
 
 .. toctree::
    :maxdepth: 2

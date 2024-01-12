@@ -9,7 +9,7 @@ Basic Absorbance
 
 1. Ensure that the spectrometer is plugged into a power outlet.
 
-   .. warning::
+   .. important::
 
       This step **must always** be performed first to avoid damaging the instrument.
 
@@ -36,7 +36,7 @@ Basic Absorbance
 7. Insert a blank cuvette containing either water or the solvent you
    will be using. Make sure the cuvette was cleaned of all fingerprints!
 
-   .. attention::
+   .. important::
 
       If your cuvette has frosted sides, be sure that the transparent sides
       are in line with the source and detector.
@@ -218,7 +218,7 @@ Shutdown
 
 3. Push “On/Off Deuterium” to turn off the deuterium lamp.
 
-   .. warning::
+   .. important::
 
       Do not turn off the main power switch. The box must be left powered
       on to cool.
