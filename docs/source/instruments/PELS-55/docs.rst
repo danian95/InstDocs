@@ -23,8 +23,8 @@ Procedure
     right corner. (You can also reach the switch from the front, on the
     left side when facing the instrument)
 2.  Turn on the monitor for the corresponding computer and log in with
-    password “Springchem2020” if needed.
-3.  Open BLDevelopment
+    password :kbd:`Springchem2020` if needed.
+3.  Open :program:`BLDevelopment`
 
     .. image:: /instruments/PELS-55/images/thumbnail_image.jpg
 
@@ -55,7 +55,7 @@ Procedure
 8.  Back on the Acquisition tab, make sure that the Scan Type is
     Emission. The Ex. and Em. slit widths should be set to a wavelength
     that allows for the whole spectra to be seen. Decreasing the slit
-    width adjusts how much light is hitting the sample - more light
+    width adjusts how much light is hitting the sample --- more light
     makes the peaks broader. Decrease the slits to ensure your limits
     aren’t exceeded for measurment! The scan speed is around 500 nm/min;
     if the spectra appears noisy, that means the speed is too fast.

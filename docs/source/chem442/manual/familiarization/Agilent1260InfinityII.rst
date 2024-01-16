@@ -12,14 +12,14 @@ Procedure
 1.  The HPLC is a POS, so it should **remain on** all the time. Make
     sure that it’s on by noting all of the LEDs on each module (bottom =
     pump, middle = autosampler and column, top = detector).
-2.  Open the ChromQuest software and then double-click HPLC. (Not
+2.  Open the :program:`ChromQuest` software and then double-click HPLC. (Not
     HPLC/man!)
-3.  Go to File > Method > Open and find “321Caffeine.met”
+3.  Go to :menuselection:`File --> Method --> Open` and find :file:`321Caffeine.met`
 4.  On the toolbar, click the icon that says “Single Run”. You may have
     to hover the cursor over each icon to find out what each one is.
 5.  Name your sample something fun and interesting. Click the folder
-    icon next to Method and find “321Caffeine.met” if the correct method
-    is not loaded. Change the data path to “C:/Data/Practice”. Change
+    icon next to Method and find :file:`321Caffeine.met` if the correct method
+    is not loaded. Change the data path to :file:`C:/Data/Practice`. Change
     the Data file to the Sample ID - Method - Date and Time by clicking
     on the arrow to the right of the field. This allows data files to be
     automatically named based on what you place in here.
@@ -31,7 +31,7 @@ Procedure
     holder out to get a better view. Close the door.
 7.  Under “Autosampler” on the computer, type in your favorite vial in
     the Vial field using the format “Letter;#”. So, if I wanted to
-    inject the vial in C3, I would type “C;3”. Without quotes!
+    inject the vial in C3, I would type :kbd:`C;3`.
 8.  Click start.
 9.  As the run starts, you may want to play around with the windows.
     Click the Window menu at the top of the screen to see what options

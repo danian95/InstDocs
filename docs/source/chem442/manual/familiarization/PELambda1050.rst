@@ -5,7 +5,7 @@ Procedure
 ~~~~~~~~~
 
 1. Make sure the power is on to the spectrometer.
-2. Open the PerkinElmer UV WinLab software and log in with Analyst.
+2. Open the :program:`PerkinElmer UV WinLab` software and log in with Analyst.
 3. This instrument uses “methods”. Select the **CHEM322 Instrument
    Familiarization** method.
 4. Click Start. The instrument will ask you to remove the samples to
@@ -24,7 +24,7 @@ Questions
 ~~~~~~~~~
 
 1. There should be two peaks, a fairly shallow one and a not so smooth
-   looking one. The sample is actually the UV-Vis waste from CHEM115:
+   looking one. The sample is actually the UV-Vis waste from CHEM121:
    Analysis of a Synthetic Blood sample. The coloration was provided
    using a FerroZine coloring agent, which binds to iron. Based on the
    position of the peaks, at what wavelength might you quantify blood

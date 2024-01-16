@@ -22,7 +22,7 @@ Procedure
    Perkin Elmer Spectrum 400 FT-IR/FT-NIR Spectrometer is turned on (it
    should not be turned off)
 
--  Log into the *Spectrum IR* software on the computer
+-  Log into the :program:`Spectrum IR` software on the computer
 
    .. image:: images/software.jpg
 

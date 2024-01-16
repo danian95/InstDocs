@@ -8,7 +8,7 @@ Procedure
 ---------
 
 1. Make sure the power is on to the spectrometer.
-2. Open the Spectrum IR software and log in as Administrator.
+2. Open the :program:`Spectrum IR` software and log in as Administrator.
 3. We will be operating the spectrometer in Attenuated Internal
    Reflectance mode. This simplifies our sample preparation
    significantly because we don’t have to do any sample preparation!

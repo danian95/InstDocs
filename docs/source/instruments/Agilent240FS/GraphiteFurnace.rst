@@ -13,7 +13,7 @@ expands the capabilities of atomic absorption.
 Method Set-up
 ~~~~~~~~~~~~~
 
-1. Open the SpectrAA software.
+1. Open the :progam:`SpectrAA` software.
 
    .. image:: /instruments/Agilent240FS/images/screenshot_(5).png
 
@@ -98,7 +98,7 @@ Instrument Alignment
    panel of the window and you can adjust the lamp and the autosampler
    through this manner.
 
-2. Pull up the light intensity monitor on the AligentAA software to
+2. Pull up the light intensity monitor on the :program:`AligentAA` software to
    reach the maximum intensity possible to reaach the sample
 
    a. The light source can be adjusted by opening the right most

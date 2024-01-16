@@ -8,7 +8,7 @@ Perkin Elmer Lambda 1050 (UV-Vis)
   cuvettes (Brand Precision Cells Inc. Ocean Optics)
 - Check that the instrument is on and open the software *PerkinElmer UV
   WinLab* and select *Analyst* from the drop down menu
-- Select *New* > *Method* and from the instrument drop down select
+- Select :menuselection:`New --> Method` and from the instrument drop down select
   *High performance UV/Vis/NIR instrument* click next, then next again
   (this just confirms that the *L1050/URA* is selected
  
@@ -85,7 +85,7 @@ PerkinElmer LS55 Fluorescence Spectrometer
 ------------------------------------------
 
 - Following the instructions on the wiki page for the fluorimeter, you will need
-  to create a new method > FL Scan > OK
+  to create a :menuselection:`new method --> FL Scan --> OK`
 
 - Under Samples you can add the same amount as in UV/Vis and the comparment was
   adjusted to include the sample holder shown below

@@ -26,8 +26,8 @@ Procedure
     reference electrode is the clear tip stored in the solution vial
     (MR-5275) with a white lid. The platinum working electrode is the
     solid black electrode.
-3.  Open the Gamry Framework software.
-4.  Go to Experiment > Physical Electrochemistry > Cyclic Voltammetry
+3.  Open the :program:`Gamry Framework` software.
+4.  Go to :menuselection:`Experiment --> Physical Electrochemistry --> Cyclic Voltammetry`
 5.  Set the parameters as follows:
 
     -  Initial E (V): 0
@@ -39,7 +39,7 @@ Procedure
 6.  Click OK. If it complains about the calibration, ignore it for this module.
     If it asks to replace a file, click Yes.
 7.  When the scan is complete (in not very apparent text, it says
-    “Experiment done” in the bottom left of the open window), press ‘F2’
+    “Experiment done” in the bottom left of the open window), press :kbd:`F2`
     on the keyboard.
 8.  Disconnect all leads from the calibration cell and attach the
     alligator clips. Note that the reference lead (white) uses a
@@ -55,12 +55,12 @@ Procedure
     (excluding the blue/green and orange/red pairs) or anything
     conductive.
 11. Repeat the CV, but this time, name your file (Output File)
-    RCV-NaCl.DTA.
-12. When complete (remember to press F2), disconnect all electrodes,
+    :file:`RCV-NaCl.DTA`.
+12. When complete (remember to press :kbd:`F2`), disconnect all electrodes,
     close Gamry Framework, and turn off the potentiostat.
-13. Open Gamry Echem Analyst.
-14. Click the open button on the toolbar and select both RCV.DTA and
-    RCV-NaCl.DTA. You can hold down Ctrl on the keyboard while clicking
+13. Open :program:`Gamry Echem Analyst`.
+14. Click the open button on the toolbar and select both :file:`RCV.DTA` and
+    :file:`RCV-NaCl.DTA`. You can hold down :kbd:`Ctrl` on the keyboard while clicking
     to select multiple files. Open them separately.
 15. Use the data to answer the questions below and close the software
     when you are finished.

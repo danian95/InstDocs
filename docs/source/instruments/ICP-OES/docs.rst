@@ -29,7 +29,7 @@ Starting the ICP-OES
       Make sure that it is plugged in (You should hear a
       fan kick on… low hum)
 
-#. Start the software on the computer - WinICP
+#. Start the software on the computer --- :program:`WinICP`
 
 #. Check the status box (want to see **IDLE**). The protocol should be
    **METL2014**. Also check for interlock error messages.
@@ -77,7 +77,7 @@ Making Standards and Filling the Autosampler
 #. It is now time to make the standards and fill the Autosampler. Choose the
    rack editor (funky dot filled rectangle between DB *down arrow* and the red
    “Stop”. Choose a “new file”, make sure it has 44 cups and save to RackFiles
-   folder on C:/. You are very limited to what you can have as the title (Only 8
+   folder on :file:`C:/`. You are very limited to what you can have as the title (Only 8
    characters, no spaces, no special characters). Be sure to record what you use
    for your title in the book so both yourself and others will know how to find
    it.
@@ -92,7 +92,7 @@ Making Standards and Filling the Autosampler
       sample with the same name (does not matter if they were ran on different days
       or not)
   
-#. Samples go into one of the 44, 15 mL tubes - fill to a little over height of
+#. Samples go into one of the 44, 15 mL tubes --- fill to a little over height of
    the rack; standards go into the 14 larger cups. This lab you will only be
    using the larger standard cups for the standards! (Unknowns are a different
    story)

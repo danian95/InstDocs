@@ -5,8 +5,8 @@ Procedure
 ---------
 
 #. Make sure the instrument is turned on. The switch is in the back.
-#. Log in with password “Springchem2020” if needed.
-#. Open BLDevelopment
+#. Log in with password :kbd:`Springchem2020` if needed.
+#. Open :program:`BLDevelopment`
 
    .. image:: /instruments/PELS-55/images/thumbnail_image.jpg
 

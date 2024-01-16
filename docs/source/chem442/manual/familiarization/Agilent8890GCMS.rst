@@ -5,11 +5,11 @@ Procedure
 ---------
 
 1.  The GC-MS must remain under high vacuum, so it is **always on**.
-    Open the Agilent GCQQQ software.
-2.  Go to Method > Load Method and find butterscotch.M.
+    Open the :program:`Agilent GCQQQ` software.
+2.  Go to :menuselection:`Method --> Load Method` and find :file:`butterscotch.M`.
 3.  Click the big arrow at the top of the screen.
 4.  Type your name in under Operator Name. For Data Path, click Browse.
-    Save your data under D:/MassHunter/GCMS/1/data/practice. Name your
+    Save your data under :file:`D:/MassHunter/GCMS/1/data/practice`. Name your
     data file something fun and interesting.
 5.  Take a look at the sample racks above the GC-MS. We’ll be using the
     Butterscotch extract which is already loaded in one of the trays.
@@ -29,7 +29,7 @@ Procedure
     automatically identify all of the peaks in your data.
 9.  Once you’re finished looking at the software, you may close it.
 10. If you are the last person using the GC-MS, go to Method and load
-    the standby.M method (just look through the drop down menu as it
+    the :file:`standby.M` method (just look through the drop down menu as it
     should have recently been used).
 
 .. attention::

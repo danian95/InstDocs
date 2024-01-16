@@ -18,7 +18,7 @@ Procedure
 
 1. Make sure the power is on to the spectrometer (well before the wet
    prep of your solution samples, duh!). The switch is around the back.
-2. Open the PerkinElmer UV WinLab software and log in with Analyst.
+2. Open the :program:`PerkinElmer UV WinLab` software and log in with Analyst.
 3. Open the pre-made method “Scan”.
 4. Once “scan” is up and running, perform an auto-zero with absolutely
    **nothing** in the machine.
@@ -51,7 +51,7 @@ Procedure
     top of the screen. This allows you to see all of your samples
     over-layed on one another.
 11. To export all of your data using an excel friendly format: press
-    file > export > .csv. Then save to your desired location on the
+    :menuselection:`file > export > .csv`. Then save to your desired location on the
     desktop and drag to your USB.
 12. If you are the last one to use the machine, ensure the program is
     closed and the instrument is turned off.

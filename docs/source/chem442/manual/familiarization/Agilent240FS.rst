@@ -16,7 +16,7 @@ Procedure
 1.  Make sure the power is on to the AA. The furnace portion (the module
     on the left) can remain off.
 
-2.  Open the SpectrAA software.
+2.  Open the :program:`SpectrAA` software.
 
 3.  Click Worksheet.
 

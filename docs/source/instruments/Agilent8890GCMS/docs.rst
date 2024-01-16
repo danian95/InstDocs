@@ -28,7 +28,7 @@ Procedure and Set-Up
    If using the PAL, be sure that the correct attachment is installed.
 
 1.  The GC-MS must remain under high vacuum, so it is **always on**.
-    Open the Agilent GCQQQ software.
+    Open the :program:`Agilent GCQQQ` software.
 
 2.  Prep your samples in the correct GCMS vials (the super tiny ones
     with the blue lids!). Make sure you take note of where they are
@@ -39,8 +39,8 @@ Procedure and Set-Up
     not below. The entire analysis will stop if a sample is not
     registered because the wrong location was entered.
 
-3.  To start the method set up do the following: method > edit entire
-    method > ok > ok > ok. This will then walk you through the entire
+3.  To start the method set up do the following: :menuselection:`method --> edit entire
+    method --> ok --> ok --> ok`. This will then walk you through the entire
     GCMS allowing you to edit and note all of its parameters for the
     experiment.
 
@@ -70,8 +70,8 @@ Procedure and Set-Up
 8.  Under the colums side tab, ensure you have 2x 15 m colums and keep
     the paramters the same.
 
-9.  Under the columns side tab, proceed with the following: columns >
-    collision cell > check quench and collision boxes. The collison cell
+9.  Under the columns side tab, proceed with the following: :menuselection:`columns -->
+    collision cell --> check quench and collision boxes`. The collison cell
     blows the sample apart with gases.
 
 10. Under the oven side tab, keep all parameters the same and ensure
@@ -113,7 +113,7 @@ Procedure and Set-Up
        the number of unwanted compounds reported if the analyte is large)
        and the molar mass of the analyte.
 
-19. Then proceed with ok > ok > **no** > ok.
+19. Then proceed with :menuselection:`ok --> ok --> no --> ok`.
 
 20. Now your are ready to run the sample. Click the big arrow at the top
     of the screen. Be patient as the instrument may need to warm up more
@@ -122,7 +122,7 @@ Procedure and Set-Up
 
 21. Type your name in under Operator Name (if you would like to leave
     Operator Name blank you may). For Data Path, click Browse. Save your
-    data under D:/MassHunter/GCMS/1/data/**put your file name here**.
+    data under :file:`D:/MassHunter/GCMS/1/data/**put your file name here**`.
     Name your data file something fun and interesting and make sure it
     ends with “.D”. Press “ok run”.
 
@@ -133,17 +133,17 @@ Procedure and Set-Up
 23. Now that the “pure cocaine” has been run through, here is where you
     go back and change “split mode” to “splitless”.
 
-24. once on home screen: green arrow > select vials you want with
-    correct tray number and vial location.
+24. once on home screen: :menuselection:`green arrow --> select vials you want with
+    correct tray number and vial location`.
 
 25. once your samples are done running (which unfortuneatley takes a
     **HOT** minute) you can open qualitative analysis where you can see
     what compounds the GCMS has detected.
 
-26. find file > load results > open.
+26. find :menuselection:`file --> load results --> open`.
 
-27. compounds view > identification > identification workshop > add >
-    library > open > NIST20.L > open > move up.
+27. :menuselection:`compounds view --> identification --> identification workshop --> add -->
+    library --> open --> NIST20.L --> open --> move up`.
 
 28. make sure you ignore retention time (I think theres a box somewhere…
     idk McCurry flew through this).
@@ -174,7 +174,7 @@ Procedure and Set-Up
        McCurry will walk you through, too!
 
 32. If you are the last person using the GC-MS, go to Method and load
-    the standby.M method (just look through the drop down menu as it
+    the :file:`standby.M` method (just look through the drop down menu as it
     should have recently been used).
 
 Shutdown
