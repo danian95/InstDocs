@@ -51,7 +51,7 @@ Procedure
     top of the screen. This allows you to see all of your samples
     over-layed on one another.
 11. To export all of your data using an excel friendly format: press
-    :menuselection:`file > export > .csv`. Then save to your desired location on the
+    :menuselection:`file --> export --> .csv`. Then save to your desired location on the
     desktop and drag to your USB.
 12. If you are the last one to use the machine, ensure the program is
     closed and the instrument is turned off.

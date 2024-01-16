@@ -13,7 +13,7 @@ expands the capabilities of atomic absorption.
 Method Set-up
 ~~~~~~~~~~~~~
 
-1. Open the :progam:`SpectrAA` software.
+1. Open the :program:`SpectrAA` software.
 
    .. image:: /instruments/Agilent240FS/images/screenshot_(5).png
 

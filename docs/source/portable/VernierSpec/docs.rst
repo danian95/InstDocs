@@ -11,12 +11,12 @@ Getting Started
    spectrophotometer to a powered USB port on the computer or a powered
    USB hub.
 
-3. Start Logger Pro 3 software on your computer.
+3. Start :program:`Logger Pro 3` software on your computer.
 
 Calibration of Spectrometer
 ---------------------------
 
-1. To calibrate the spectrophotometer, choose Calibrate > Spectrometer
+1. To calibrate the spectrophotometer, choose :menuselection:`Calibrate --> Spectrometer`
    from the Experiment menu. For best results, allow the
    spectrophotometer to warm up for a minimum of ten minutes.
 
@@ -38,10 +38,10 @@ Measurement
    |vernier-data-collection.png|. There are three regions in this box;
    we want the first:
 
-   -  **Collection Mode:** The three options for data collection are
-      offered. If the measurement (Absorbance in this example) vs. Time
-      or vs. Concentration is selected, a wavelength or wavelengths will
-      need to be chosen.
+   Collection Mode
+      The three options for data collection are offered. If the measurement
+      (Absorbance in this example) vs. Time or vs. Concentration is selected, a
+      wavelength or wavelengths will need to be chosen.
 
 2. Select Absorbance vs. Concentration as the data-collection mode. The
    wavelength where our compound absorbs the most light (λmax = 562 nm)

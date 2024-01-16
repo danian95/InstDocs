@@ -20,9 +20,13 @@ Procedure
        Be absolutely sure that you are connected the leads to the appropriate
        positions.
 
-    It’s good practice to connect them in order of Counter
-    (red,orange clips) > Reference (white clip) > Working (blue, green
-    clips). The Counter is the electrode with the long wire, the
+    It’s good practice to connect them in the following order:
+
+    1. Counter (red,orange clips) 
+    2. Reference (white clip)
+    3. Working (blue, green clips).
+          
+    The Counter is the electrode with the long wire, the
     reference electrode is the clear tip stored in the solution vial
     (MR-5275) with a white lid. The platinum working electrode is the
     solid black electrode.

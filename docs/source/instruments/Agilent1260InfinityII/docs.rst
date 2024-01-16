@@ -15,7 +15,7 @@ Procedure
 1.  The HPLC is a POS, so it should **remain on** all the time. Make
     sure that it’s on by noting all of the LEDs on each module (bottom =
     pump, middle = autosampler and column, top = detector).
-2.  Open the :progam:`ChromQuest` software and then double-click HPLC. (Not
+2.  Open the :program:`ChromQuest` software and then double-click HPLC. (Not
     HPLC/man!)
 3.  Go to :menuselection:`File --> Method --> Open` and find :file:`321Caffeine.met`
 4.  On the toolbar, click the icon that says “Single Run”. You may have

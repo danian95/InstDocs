@@ -30,13 +30,16 @@ CV
    holes for the electrodes and turn on the magnetic stirring. (black
    switch to the right of the cell)
 2. Remove all oxygen from solution by bubbling nitrogen gas through the
-   electrochemical cell for 3-5 minutes -**NOTE**: make sure the
-   nitrogen gas is causing the solution to bubble quite rapidly, but not
-   enough to spill any solution
+   electrochemical cell for 3-5 minutes 
+
+   .. note::
+      make sure the nitrogen gas is causing the solution to bubble quite
+      rapidly, but not enough to spill any solution
+
 3. While the solution is bubbling, power on the Gamry Potentiostat. The
    switch is in the back, kind of on the bottom right if you are looking
    at the front of the machine.
-4. Go to Experiment > Physical Electrochem > Cyclic Voltammetry
+4. Go to :menuselection:`Experiment > Physical Electrochem > Cyclic Voltammetry`
 5. Set the desired parameters:
 
    -  Test ID: The name of the experiment.
@@ -81,10 +84,14 @@ CV
     in the diffusion limited current region of your CV.
 10. Once parameters are set, click “OK” at the top of the screen and
     take a background scan. You should see this run take place with no
-    peaks. \*If there are peaks, you will need to polish the working
-    electrode with Micropolish Alumina. If the peaks in your blank are
-    not resolved, the WE may require sonication.
-11. Once run is complete, press F2 on the keyboard and continue further
+    peaks. 
+
+    .. tip::
+       If there are peaks, you will need to polish the working electrode with
+       Micropolish Alumina. If the peaks in your blank are not resolved, the WE
+       may require sonication.
+
+11. Once run is complete, press :kbd:`F2` on the keyboard and continue further
     runs. (Remember, each time the solution is swapped, you must bubble
     through with nitrogen gas and stir for at least 3 minutes).
 12. The reference electrode should be washed between runs with deionized
@@ -107,6 +114,6 @@ Data Analysis
 -------------
 
 The easiest way to visualize data before exporting to a figure is to
-work up the data in Gamry Echem Analyst.
+work up the data in :program:`Gamry Echem Analyst`.
 
 
