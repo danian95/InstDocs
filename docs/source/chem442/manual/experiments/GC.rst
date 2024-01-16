@@ -155,18 +155,27 @@ Deemter equation which can be simplified\ [#f1]_ to:
 
 where :math:`μ` is the flow rate, :math:`A` is the eddy diffusion term,
 :math:`\frac{B}{μ}` is the longitudinal diffusion term, and :math:`Cμ` is the mass
-transfer rate term.  The van Deemter equation is plotted (:math:`H` vs. :math:`μ`) to yield a
-flow rate with a minimum value of :math:`H` thus highest column efficiency.  Values for
-the various terms can also be obtained from the plot. By extrapolating the
-non-attainment of partition equilibrium line to :math:`μ=0`, where the value of :math:`H`
-equals the :math:`A` term.  The slope of the line used to extrapolate :math:`μ=0` is the value
-of :math:`C`.  To find the last term, :math:`B`, the equation must be differentiated with
-respect to :math:`μ` and set equal to zero.
+transfer rate term.  The van Deemter equation is plotted (:math:`H` vs.
+:math:`μ`, :numref:`vanDeemter`) to yield a flow rate with a minimum value
+of :math:`H` thus highest column efficiency.  Values for the various terms can
+also be obtained from the plot. By extrapolating the non-attainment of partition
+equilibrium line to :math:`μ=0`, where the value of :math:`H` equals the
+:math:`A` term.  The slope of the line used to extrapolate :math:`μ=0` is the
+value of :math:`C`.  To find the last term, :math:`B`, the equation must be
+differentiated with respect to :math:`μ` and set equal to zero
 
 .. math:: \frac{\partial{H}}{\partial{μ}} = -\frac{B}{μ^2}  +  C
    :label: vanDeemter-diff
 
-At :math:`μ_{\text{OPT}}`, each side of the expression must equal zero:
+.. plot:: pyplots/vanDeemter.py
+   :width: 80%
+   :align: center
+   :caption:
+       A plot of the van Deemter equation and each individual term. Values
+       of :math:`A = 1.25\,\text{mm}`, :math:`B = 25\,\text{mm}`, and :math:`C =
+       0.025\,\text{mm}` were used. Adapted from Wikipedia, user Pronchik.
+
+At |uOPT|, each side of the expression must equal zero:
 
 .. math:: \frac{\partial{H}}{\partial{μ}}  =  0  \qquad\text{and}\qquad -\frac{B}{μ_{\text{OPT}}^2} + C = 0
    :label: uopt
@@ -174,17 +183,7 @@ At :math:`μ_{\text{OPT}}`, each side of the expression must equal zero:
 therefore,
 
 .. math:: B  =  Cμ_{\text{OPT}}^2
-
-.. plot:: 
-
-   import matplotlib.pyplot as plt
-
-   A = 1.5
-   B = 25
-   C = 0.025
-   u = np.arange(0.1,3,0.01)
-   
-   plt.plot(u, A + B/u + C*u, "bo")
+   :label: uoptsimp
 
 
 Procedure
@@ -212,35 +211,113 @@ Procedure
 
    Measure flow rate both before injection and after the sample has been eluted.
 
-Treatment of Data:
+Treatment of Data
 ~~~~~~~~~~~~~~~~~~
 
 1. Convert flow rates to milliliters per minute (if needed).
 
 2. From the chromatogram and the column length, calculate the value of :math:`H`
-   at each flow rate then construct a van Deemter plot as in figure 2.  Set the
-   instrument to the optimum flow for part 2.  Calculate values for A, B, and C
-   terms.
+   at each flow rate then construct a van Deemter plot as in
+   :numref:`vanDeemter`.  Set the instrument to the optimum flow for :ref:`GC-Quant`.
+   Calculate values for :math:`A`, :math:`B`, and :math:`C` terms.
 
-Questions:
-A hydrocarbon gave a GC peak for which w1/2 = 0.60 s and tR = 0.92 min.  Calculate the plate number and H given a column length of 10 meters.
-Show what effect an increase in gaseous diffusion coefficient of a solute in the carrier gas would have on the longitudinal diffusion curve in figure 2.
-A mixture of four hydrocarbons is to be separated.  A van Deemter plot is obtained for one of the hydrocarbons and the flow rate is set at the minimum value in the plot.   Does this flow rate also give the minimum value for H for the other three hydrocarbons?  Explain.
-Would ìOPT increase or decrease if the column temperature is increased?  Explain.
-Part II:  Quantitative Analysis of Mixtures by Gas Chromatography
-Theory: Gas chromatography is widely used for quantitative analysis of gases and volatile liquids.  The area under the curve for a species is proportional to the concentration of the species.  Obtaining a calibration curve of concentration vs peak height or peak area leads directly to the unknown concentration.  Similarly, use of an internal standard and plotting ratio of species to standard concentration can help remove instrumental and environmental errors.  One major limitation is the volume of sample actually injected into the chromatograph. When dealing with a binary mixture, this limitation can be circumvented by constructing a calibration curve in which the area or peak height ratio for the two components is plotted against a function of the sample concentration.  The ratio has the advantage that it should be independent of the sample volume.  If R represents the volume fraction of component #2 in the binary mixture, then
-S2A2 1          S1A1 R = ----------------- which rearranges to: —  =  --------- + 1 S1A1 + S2A2 R         S2A2
-Therefore, if the area ratio (A1/A2) is plotted against 1/R, a straight line of slope S1/S2 should result which passes through the point A1/A2 = 0 , 1/R = 1.  (For example, a prepared known sample that contains 40% of component #2 and 60% of component #1 shows that 1/R = 2.5.  By taking known volume rations and measuring their area ratios, a calibration curve can be constructed).  Accordingly, when the area ratio of an
-44
-unknown mixture is is measured, the corresponding value of 1/R can be read from the calibration curve and the composition can be calculated.
-Procedure: Adjust the flow rate of the chromatograph to the optimum value for chloroform found above.  Prepare a series of standard solutions of chloroform and carbon tetrachloride that contain 30, 40, 50, 60, and 70 % chloroform by volume.
-Obtain chromatograms of each of the mixtures and of an unknown sample obtained from the instructor.
-Treatment of Data: Construct a ratio calibration curve from both the peak heights and areas of the standards.  Use theory and you noodle to determine which species is which! Use this curve to determine the makeup of the unknown.
-1. 2. 1. 2. 3. 4.
-Questions: Explain the order of elution of chloroform and carbon tetrachloride from the chromatograph.
-Do you expect methylene chloride (1,2-dichloromethane) to elute faster or slower than the chloroform? Why?
-3. What would happen to chromatographic output if temperature were decreased between successive runs? References: Dal Noare, S. And Juvet, R.S., Jr.,Gas Liquid Chromatography, Interscience:New York, 1959. Keulemans, A.I.M.., Gas Chromatography, Second Edition, Reingold: New York, 1959. Purnell, H., Gas Chromatography, Wiley: New York, 1962. Any undergraduate instrumental textbook.
-45
-46
+Questions
+~~~~~~~~~
 
+1. A hydrocarbon gave a GC peak for which |w1/2| = 0.60 s and |tr| = 0.92 min.
+   Calculate the plate number and :math:`H` given a column length of 10 meters.
+
+2. Show what effect an increase in gaseous diffusion coefficient of a solute in
+   the carrier gas would have on the longitudinal diffusion curve in
+   :numref:`vanDeemter`.
+
+3. A mixture of four hydrocarbons is to be separated.  A van Deemter plot is
+   obtained for one of the hydrocarbons and the flow rate is set at the minimum
+   value in the plot.   Does this flow rate also give the minimum value for
+   :math:`H` for the other three hydrocarbons?  Explain.
+
+4. Would |uOPT| increase or decrease if the column temperature is increased?
+   Explain.
+
+.. _GC-Quant:
+
+Quantitative Analysis of Mixtures by Gas Chromatography
+-------------------------------------------------------
+
+Theory
+~~~~~~
+Gas chromatography is widely used for quantitative analysis of gases and
+volatile liquids.  The area under the curve for a species is proportional to the
+concentration of the species.  Obtaining a calibration curve of concentration vs
+peak height or peak area leads directly to the unknown concentration.
+Similarly, use of an internal standard and plotting ratio of species to standard
+concentration can help remove instrumental and environmental errors.  One major
+limitation is the volume of sample actually injected into the chromatograph.
+
+When dealing with a binary mixture, this limitation can be circumvented by
+constructing a calibration curve in which the area or peak height ratio for the
+two components is plotted against a function of the sample concentration.  The
+ratio has the advantage that it should be independent of the sample volume.  If
+:math:`R` represents the volume fraction of component #2 in the binary mixture, then
+
+.. math:: R = \frac{S_2A_2}{S_1A_1 + S_2A_2}
+   :label: intstd
+
+which rearranges to:
+
+.. math:: \frac{1}{R} = \frac{S_1A_1}{S_2A_2} + 1
+   :label: intstd2
+
+Therefore, if the area ratio (:math:`\frac{A_1}{A_2}`) is plotted against
+:math:`\frac{1}{R}`, a straight line of slope :math:`\frac{S_1}{S_2}` should result which passes
+through the point :math:`\frac{A_1}{A_2} = 0`, :math:`\frac{1}{R} = 1`.  (For example, a prepared known sample
+that contains 40% of component #2 and 60% of component #1 shows that
+:math:`\frac{1}{R} = 2.5`. By taking known volume rations and measuring their
+area ratios, a calibration curve can be constructed).  Accordingly, when the
+area ratio of an unknown mixture is is measured, the corresponding value of
+:math:`\frac{1}{R}` can be read from the calibration curve and the composition
+can be calculated.
+
+Procedure
+~~~~~~~~~
+Adjust the flow rate of the chromatograph to the optimum value for chloroform
+found above.  Prepare a series of standard solutions of chloroform and carbon
+tetrachloride that contain 30, 40, 50, 60, and 70 % chloroform by volume. Obtain
+chromatograms of each of the mixtures and of an unknown sample obtained from the
+instructor.
+
+Treatment of Data
+~~~~~~~~~~~~~~~~~
+Construct a ratio calibration curve from both the
+peak heights and areas of the standards. Use theory and your noodle to determine
+which species is which! Use this curve to determine the makeup of the unknown.
+
+Questions
+~~~~~~~~~
+1. Explain the order of elution of chloroform and carbon tetrachloride from the
+   chromatograph.
+  
+2. Do you expect methylene chloride (1,2-dichloromethane) to elute faster or
+   slower than the chloroform? Why?
+
+3. What would happen to chromatographic output if temperature were decreased
+   between successive runs?
+  
+References
+++++++++++
+
+* Dal Noare, S. And Juvet, R.S., Jr.,Gas Liquid Chromatography, Interscience:New
+  York, 1959.
+ 
+* Keulemans, A.I.M.., Gas Chromatography, Second Edition, Reingold: New York,
+  1959.
+ 
+* Purnell, H., Gas Chromatography, Wiley: New York, 1962.
+ 
+* Any undergraduate instrumental textbook.
+
+.. |w1/2| replace:: :math:`w_{1/2}`
+.. |tr| replace:: :math:`t_r`
+.. |uOPt| replace:: :math:`μ_{\text{OPT}}`
 .. [#f1] Fear not — we will derive the full van Deemter equation in lecture (if that has not already occurred)!
+
