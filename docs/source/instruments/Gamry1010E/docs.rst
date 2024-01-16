@@ -44,9 +44,13 @@ CV
 
    -  Test ID: The name of the experiment.
 
--  Set the scan parameters as follows: - Initial E (V): 0.8 - Scan Limit
-   1 (V): -0.12 - Scan Limit 2 (V): 0.8 - Final E (V): 0.8 - all the
-   previous scan parameters are vs Eref
+   -  Set the scan parameters as follows:
+      
+      - Initial E (V): 0.8
+      - Scan Limit 1 (V): -0.12
+      - Scan Limit 2 (V): 0.8
+      - Final E (V): 0.8
+      - all the previous scan parameters are vs Eref
 
    -  Output file: The name of the file created.
    -  Electrode Area: Will give current (*i*) if the area is set to 1.
@@ -72,11 +76,11 @@ CV
 7.  Insert the electrodes and connect the alligator clips in the
     following order:
 
-    -  Counter electrode: Always connect the “sensor” clip closest to
-       the electrode
-    -  Reference electrode
-    -  Working electrode: Always connect the “sensor” clip closest to
-       the electrode
+    1.  Counter electrode: Always connect the “sensor” clip closest to the
+        electrode
+    2.  Reference electrode
+    3.  Working electrode: Always connect the “sensor” clip closest to the
+        electrode
 
 8.  Ensure the electrodes are not touching. The cell is small and the
     clips can slide as the wires settle.

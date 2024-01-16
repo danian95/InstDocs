@@ -23,7 +23,9 @@ Procedure
     It’s good practice to connect them in the following order:
 
     1. Counter (red,orange clips) 
+
     2. Reference (white clip)
+
     3. Working (blue, green clips).
           
     The Counter is the electrode with the long wire, the
@@ -34,11 +36,14 @@ Procedure
 4.  Go to :menuselection:`Experiment --> Physical Electrochemistry --> Cyclic Voltammetry`
 5.  Set the parameters as follows:
 
-    -  Initial E (V): 0
-    -  Scan Limit 1 (V): 0.5
-    -  Scan Limit 2 (V): -0.5
-    -  Final E (V): 0
-    -  All other defaults should be good to use.
+    ================= =====
+    Initial E (V):    0
+    Scan Limit 1 (V): 0.5
+    Scan Limit 2 (V): -0.5
+    Final E (V):      0
+    ================= =====
+
+    All other defaults should be good to use.
 
 6.  Click OK. If it complains about the calibration, ignore it for this module.
     If it asks to replace a file, click Yes.
