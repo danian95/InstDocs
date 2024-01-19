@@ -7,13 +7,7 @@ Procedure
 #. Make sure the instrument is turned on. The switch is in the back.
 #. Log in with password :kbd:`Springchem2020` if needed.
 #. Open :program:`BLDevelopment`
-
-   .. image:: /instruments/PELS-55/images/thumbnail_image.jpg
-
-#. Click the New Method icon.
-   
-   .. image:: /instruments/PELS-55/images/thumbnail_image\_(1).jpg
-
+#. Go to :menuselection:`File --> New Method`.
 #. Use the FL Scan Aquisition Module. Everything else should be set to
    None.
 #. Click the Manual Control Tab and make sure that Comport Com1 is
