@@ -3,6 +3,6 @@ Familiarization
 
 .. toctree::
    :glob:
-   :maxdepth: 0
+   :maxdepth: 1
 
    *
