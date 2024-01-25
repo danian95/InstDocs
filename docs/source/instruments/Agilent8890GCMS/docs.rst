@@ -8,7 +8,7 @@ and SPME sample introduction.
 -  `📅 Instrument Schedule *View Only* <https://instrumentschedule.com/fom/viewonly?eid=2338&p=t1KelxxGan>`__
 -  `Manuals <https://huskiesbloomu.sharepoint.com/:f:/s/chem/Eo8ei4C4hEBPtwPJfns7mI0BiMMpSgB_ErzjQQ6LtRDLvw?e=fuEzIz>`__
 
-.. figure:: /instruments/Agilent8890GCMS/gcms.png
+.. figure:: images/gcms.png
    :width: 50%
    :alt: An image of the instrument in the laboratory
    :align: center
