@@ -34,7 +34,7 @@ emission of the perfect frequency for the analyte to absorb.  A hollow cathode
 lamp is shown in :numref:`HCL`.
 
 .. _HCL:
-.. figure:: images/aa-HCL.gif
+.. figure:: images/aa-HCL.png
    :align: center
    :figwidth: 60%
 
@@ -62,7 +62,7 @@ sample reaching the flame), and the temperature will control the amount of
 sample actually available in the atomic reservoir for the analysis.
 
 .. _flowpath:
-.. figure:: images/aa-flowpath.gif
+.. figure:: images/aa-flowpath.png
    :align: center
    :figwidth: 100%
 
@@ -93,7 +93,7 @@ for each species at each atomic line.  Linearity decreases above 50 μg/mL for
 most species.
 
 .. _calcurve:
-.. figure:: images/aa-calcurve.gif
+.. figure:: images/aa-calcurve.png
    :align: center
    :figwidth: 60%
 

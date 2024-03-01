@@ -189,6 +189,6 @@ A. Handling Primary Standards (see pertinent pages in Harris)
       necessary.  The standard solvent should match the matrix of the unknown as
       closely as possible.
 
-.. figure:: images/calculations-comic.gif
+.. figure:: images/calculations-comic.png
    :align: center
    :width: 60%

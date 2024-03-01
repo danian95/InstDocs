@@ -29,6 +29,11 @@ numfig = True
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
+# -- Options for PDF output --------------------------------------------------
+
+latex_engine = 'lualatex'
+release_name = 'Edition'
+
 # -- Options for pyplot ------------------------------------------------------
 plot_formats = [('png', 150)] # Make a little higher resolution than default
 plot_html_show_formats = False # Get rid of links to download different formats

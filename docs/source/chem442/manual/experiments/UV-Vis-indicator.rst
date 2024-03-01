@@ -32,7 +32,7 @@ and the equilibrium constant for the acid dissociation is
 where :math:`\mathcal{A}` refers to the activity.
 
 .. _uv-bromothymol-blue:
-.. figure:: images/uv-bromothymol_blue.gif
+.. figure:: images/uv-bromothymol_blue.png
 
    Structure of bromothymol blue at different pH.
 
@@ -177,7 +177,7 @@ measuring with a ruler the relative lengths of the two arrows indicated in
 :numref:`uv-AvpH`.
 
 .. _uv-AvpH:
-.. figure:: images/uv-AvpH.gif
+.. figure:: images/uv-AvpH.png
 
    Aborption of an acid-base indicator as a function of pH.
 

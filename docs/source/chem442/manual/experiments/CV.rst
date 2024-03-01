@@ -31,7 +31,7 @@ can be used. Modern instrumentation enables switching potentials and scan rates
 to be easily varied.
 
 .. _cv-waveform:
-.. figure:: images/cv-waveform.gif
+.. figure:: images/cv-waveform.png
    :align: center
    :figwidth: 60%
 
@@ -85,7 +85,7 @@ potential is applied. This procedure avoids inadvertent electrolysis as a result
 of applying the initial potential.
 
 .. _cv-voltammogram:
-.. figure:: images/cv-voltammogram.gif
+.. figure:: images/cv-voltammogram.png
    :align: center
    :figwidth: 60%
 
@@ -172,14 +172,14 @@ shown in :numref:`potentiostat` and a typical three electrode cell in
 :numref:`threecell`.
 
 .. _potentiostat:
-.. figure:: images/cv-potentiostat-box.gif
+.. figure:: images/cv-potentiostat-box.png
    :align: center
    :figwidth: 60%
 
    Instrumentation for cyclic voltammetry
 
 .. _threecell:
-.. figure:: images/cv-threecell.gif
+.. figure:: images/cv-threecell.png
    :align: center
    :figwidth: 60%
 

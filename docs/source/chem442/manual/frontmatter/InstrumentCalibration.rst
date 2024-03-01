@@ -37,7 +37,7 @@ spectroscopic techniques or can have the measured blank response and a non-zero
 intercept.
 
 .. _workingcurve:
-.. figure:: images/calibration-working-curves-intercept.gif
+.. figure:: images/calibration-working-curves-intercept.png
    :align: center
    :figwidth: 60%
 
@@ -78,7 +78,7 @@ methods or where the amount of sample available is limited.  Correction must be
 made for the added volumes of the standard.
 
 .. _stdadd:
-.. figure:: images/stdadd.gif
+.. figure:: images/stdadd.png
    :align: center
    :figwidth: 60%
    
@@ -153,7 +153,7 @@ Absolute Techniques
 In an absolute technique, the constants involved in the calibration curve are
 assumed to be known and used in the sample determination.  For example, in a
 Beer’s law analysis, a species is known to have a molar absorptivity of 10,000
-L∙atm/mol∙K.  If a solution of the species in a 1.00 cm cuvette has an absorbance
+L·atm/mol·K.  If a solution of the species in a 1.00 cm cuvette has an absorbance
 of 0.345, then the concentration must obviously be 3.45 × 10\ :sup:`-5` M.  Obviously as
 long as nothing instrumentally is changing the value of ε!  A scratch on the
 cuvette would be largely negated by one of the above methods but not in an
