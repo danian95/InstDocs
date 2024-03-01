@@ -8,7 +8,8 @@ A fluorimeter measures the fluorescence or light emitted by different
 fluorescing objects. Fluorescence occurs when light of specific
 wavelength hits and excites electrons in a sample, and the electrons
 in that sample instantly emit or fluoresce light of a different
-wavelength. Ideally, emission and excitation spectra for the same
+wavelength. Typically, molecules with conjugated and/or aromatic systems exhibit
+fluorescence. Ideally, emission and excitation spectra for the same
 analyte are mirror images of eachother with the excitation wavelenght
 being shorter than the emission wavelenght. In fluorescence
 spectroscopy, the light source and the detector are oriented at a 90
@@ -18,12 +19,11 @@ a measure of the ability of an analyte to emit light.
 Procedure
 ~~~~~~~~~
 
-1.  Make sure the instrument is turned on. Make your way through the
-    trecherous journey behind the machines as the switch is in the back
-    right corner. (You can also reach the switch from the front, on the
-    left side when facing the instrument)
+1.  Make sure the instrument is turned on. The switch for the instrument is on
+    the left side towards the back when facing towards the front of the
+    instrument.
 2.  Turn on the monitor for the corresponding computer and log in with
-    password :kbd:`Springchem2020` if needed.
+    password :kbd:`spring2021` if needed.
 3.  Open :program:`BLDevelopment`
 
     .. image:: /instruments/PELS-55/images/thumbnail_image.jpg
@@ -58,7 +58,8 @@ Procedure
     width adjusts how much light is hitting the sample --- more light
     makes the peaks broader. Decrease the slits to ensure your limits
     aren’t exceeded for measurment! The scan speed is around 500 nm/min;
-    if the spectra appears noisy, that means the speed is too fast.
+    if the spectra appears noisy, that means the speed is too fast. Lower the
+    scan speed to resolve these noisy peaks.
     Ensure the Gain is set to Low; this is the numerical multiplier that
     attributes to the amplitude of the signal. 
 
@@ -84,8 +85,9 @@ Procedure
     your Ex. WL to the value you found in your previous step.
 13. When you are choosing the range to scan for your molecule, keep in
     mind that the emission spectra will always be to the right of the
-    excitation maximum, and the excitation spectra will always be to the
-    left of the emission maximum. 
+    excitation maximum at a higher wavelength, and the excitation spectra will
+    always be to the
+    left of the emission maximum at a lower wavelength
 
     .. tip::
        After obtaining your emission spectrum, choose a wavelength range
@@ -99,15 +101,18 @@ Procedure
     the intensity.
 16. Adjust the parameters for the Em WL and Ex WL to the maximum
     wavelength you determined in the previous scans. Use the same slit
-    width for both Em and Ex as used before, too.
+    width for both Em and Ex as used before, too. Make sure to blank the
+    instrument before running your samples.
 17. Now you may run your samples by clicking the play button and then
     Start. Make sure that if you have more than one sample in the
-    carousel, you are spinning the knob each turn to correlate each
+    carousel, you are spinning the knob counter-clockwise each turn to correlate each
     sample! (In this mode, after you click *Start* to run each sample,
     the measurement will automatically appear after the scan and you are
-    able to just click *Start* again to run the next sample)
+    able to just click *Start* again to run the next sample). If the intensity
+    of the sample exceeds 1004.99 for a calibration curve, then the sample may
+    be too concentrated and should not be used as data in the curve.
 18. If you have more than three samples to run, you should remember to
     keep the blank in the instrument carousel so you recalibrate it each
     time you open the cover.
-19. When you are finished, save your data, close the program and turn
+19. When you are finished, save your data as .ascii, close the program and turn
     off the machine.
